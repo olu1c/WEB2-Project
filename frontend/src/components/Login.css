@@ -1,0 +1,153 @@
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(145deg, #0f172a 0%, #1e1b4b 50%, #312e81 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 24px;
+}
+
+.login-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.4);
+  border: 1px solid rgba(255,255,255,0.1);
+  text-align: center;
+}
+
+/* Override generic form styles from CreateTrip.css */
+.login-card form {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+.login-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 30px rgba(99, 102, 241, 0.5);
+  margin-bottom: 20px;
+}
+
+.login-card h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.login-card .login-subtitle {
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 28px;
+}
+
+.login-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.login-field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 6px;
+  text-align: left;
+}
+
+.login-field input,
+.login-card form input {
+  padding: 11px 14px;
+  border: 1.5px solid rgba(255,255,255,0.4) !important;
+  border-radius: 10px;
+  font-size: 14px;
+  color: white !important;
+  background: rgba(255,255,255,0.08) !important;
+  transition: all 0.2s;
+  outline: none;
+}
+
+.login-field input::placeholder,
+.login-card form input::placeholder {
+  color: rgba(255,255,255,0.35);
+}
+
+.login-field input:focus,
+.login-card form input:focus {
+  border-color: #818cf8 !important;
+  background: rgba(255,255,255,0.12) !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+}
+
+.login-error {
+  background: #fef2f2;
+  color: #e11d48;
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #fecdd3;
+  margin-bottom: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 4px;
+  letter-spacing: 0.2px;
+}
+
+.login-btn:hover {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.4);
+  transform: translateY(-1px);
+}
+
+.login-footer {
+  text-align: center;
+  margin-top: 22px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+}
+
+.login-footer a {
+  color: #6366f1;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 4px;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .login-left { display: none; }
+  .login-right { padding: 24px; }
+}

@@ -1,0 +1,9 @@
+.logo {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2px solid #758a8a;
+  filter: drop-shadow(0 0 4px rgba(31, 42, 42, 0.5));
+  
+}

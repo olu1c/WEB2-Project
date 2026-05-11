@@ -1,0 +1,232 @@
+.dashboard {
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-height: calc(100vh - 60px);
+}
+
+/* HEADER */
+.headerCard {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+  padding: 28px 32px;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.35);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.headerCard h1 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.headerCard p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+.budgetBox {
+  text-align: right;
+  color: white;
+}
+
+.budgetBox p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 4px;
+}
+
+.budgetBox h2 {
+  font-size: 26px;
+  color: white;
+  margin-bottom: 4px;
+}
+
+.budgetBox span {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* BODY */
+.body {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+/* SIDEBAR */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 12px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.sidebar button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  transition: all 0.18s;
+  width: 100%;
+}
+
+.sidebar button:hover {
+  background: var(--primary-light);
+  color: var(--primary);
+  transform: none;
+  box-shadow: none;
+}
+
+.sidebar button.active-tab {
+  background: var(--primary);
+  color: white;
+}
+
+.sidebar .edit-trip-btn {
+  margin-top: 8px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+  color: var(--text-muted);
+}
+
+.sidebar .edit-trip-btn:hover {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+}
+
+.contentInner {
+  width: 100%;
+}
+
+/* CARD */
+.card {
+  background: var(--card);
+  padding: 24px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* FORMS IN TABS */
+.card form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: flex-end;
+}
+
+.card form input,
+.card form select {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text);
+  transition: border 0.2s;
+  flex: 1;
+  min-width: 130px;
+}
+
+.card form input:focus,
+.card form select:focus {
+  outline: none;
+  border-color: var(--primary);
+  background: white;
+}
+
+/* LIST ITEMS */
+.card li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border-bottom: none;
+  margin-bottom: 6px;
+  background: var(--bg);
+  font-size: 14px;
+}
+
+.card li:hover {
+  background: var(--primary-light);
+}
+
+/* BUTTONS INSIDE CONTENT */
+.content button {
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: var(--primary);
+  color: white;
+  margin-left: 6px;
+  transition: background 0.2s;
+  width: auto;
+}
+
+.content button:hover {
+  background: var(--primary-dark);
+  transform: none;
+  box-shadow: none;
+}
+
+.content button[onClick*="Delete"],
+.content button:last-child {
+  background: #fef2f2;
+  color: var(--danger);
+}
+
+.content button:last-child:hover {
+  background: var(--danger);
+  color: white;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.stats div {
+  flex: 1;
+  background: linear-gradient(135deg, var(--primary-light), #f5f3ff);
+  padding: 14px;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--primary);
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #e0e7ff;
+}

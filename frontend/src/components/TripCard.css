@@ -1,0 +1,128 @@
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 24px 32px;
+}
+
+.trips-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px 0;
+}
+
+.trips-header h1 {
+  font-size: 24px;
+}
+
+.trips-header a,
+.trips-header button {
+  background: var(--primary);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  width: auto;
+}
+
+.trips-header a:hover,
+.trips-header button:hover {
+  background: var(--primary-dark);
+  transform: none;
+  box-shadow: none;
+}
+
+.trip-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  transition: all 0.22s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+}
+
+.trip-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.trip-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+}
+
+.trip-dates {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.trip-budget {
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 500;
+  margin: 0;
+}
+
+.trip-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.trip-button {
+  flex: 1;
+  padding: 7px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s;
+  width: auto;
+}
+
+.open-btn {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.open-btn:hover {
+  background: var(--primary);
+  color: white;
+  transform: none;
+  box-shadow: none;
+}
+
+.edit-btn {
+  background: #f0fdf4;
+  color: #16a34a;
+}
+.edit-btn:hover {
+  background: #22c55e;
+  color: white;
+  transform: none;
+  box-shadow: none;
+}
+
+.delete-btn {
+  background: #fef2f2;
+  color: var(--danger);
+}
+.delete-btn:hover {
+  background: var(--danger);
+  color: white;
+  transform: none;
+  box-shadow: none;
+}

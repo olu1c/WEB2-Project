@@ -1,0 +1,94 @@
+form {
+  max-width: 480px;
+  margin: 48px auto;
+  padding: 32px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--border);
+}
+
+form h1 {
+  font-size: 22px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+form label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+form input,
+form textarea {
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 14px;
+  background: var(--bg);
+  color: var(--text);
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  background: white;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+form textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  padding: 11px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+  background: var(--primary-dark);
+  transform: none;
+  box-shadow: none;
+}
+
+form button[type="button"] {
+  width: 100%;
+  padding: 11px;
+  background: var(--bg);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+form button[type="button"]:hover {
+  background: #fef2f2;
+  color: var(--danger);
+  border-color: var(--danger);
+  transform: none;
+  box-shadow: none;
+}
