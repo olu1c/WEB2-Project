@@ -457,10 +457,10 @@ C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\s
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\staticwebassets.build.json.cache
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\staticwebassets.development.json
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\staticwebassets.build.endpoints.json
-C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\staticwebassets.upToDateCheck.txt
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\UserServ.57764DC8.Up2Date
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\UserService.dll
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\refint\UserService.dll
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\UserService.pdb
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\UserService.genruntimeconfig.cache
 C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\ref\UserService.dll
+C:\Users\Bogdan\source\repos\ProjekatWEB2\UserService\obj\Debug\net8.0\win-x64\staticwebassets.upToDateCheck.txt

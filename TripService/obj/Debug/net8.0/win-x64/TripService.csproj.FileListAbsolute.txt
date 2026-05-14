@@ -457,10 +457,10 @@ C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\s
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\staticwebassets.build.json.cache
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\staticwebassets.development.json
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\staticwebassets.build.endpoints.json
-C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\staticwebassets.upToDateCheck.txt
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\TripServ.30D6E718.Up2Date
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\TripService.dll
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\refint\TripService.dll
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\TripService.pdb
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\TripService.genruntimeconfig.cache
 C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\ref\TripService.dll
+C:\Users\Bogdan\source\repos\ProjekatWEB2\TripService\obj\Debug\net8.0\win-x64\staticwebassets.upToDateCheck.txt

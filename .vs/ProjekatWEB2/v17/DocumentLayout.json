@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|solutionrelative:tripservice\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0CE10-610B-4CA2-9DBE-851FD517CC54}|UserService\\UserService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\userservice\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0CE10-610B-4CA2-9DBE-851FD517CC54}|UserService\\UserService.csproj|solutionrelative:userservice\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\migrations\\20260513223218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|solutionrelative:tripservice\\migrations\\20260513223218_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|solutionrelative:tripservice\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|solutionrelative:tripservice\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\adminservice\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\models\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0CE10-610B-4CA2-9DBE-851FD517CC54}|UserService\\UserService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0CE10-610B-4CA2-9DBE-851FD517CC54}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\adminservice\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\adminservice\\models\\dtos\\tripdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\models\\dtos\\tripdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,24 +75,12 @@
       "RelativeMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\adminservice\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1E26E2A-FF01-442C-B005-988072D4D873}|AdminService\\AdminService.csproj|solutionrelative:adminservice\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|solutionrelative:tripservice\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|solutionrelative:tripservice\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|solutionrelative:tripservice\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1E0CE10-610B-4CA2-9DBE-851FD517CC54}|UserService\\UserService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1E0CE10-610B-4CA2-9DBE-851FD517CC54}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5EC0684A-A1BE-4D1E-B2A9-375CBBC527A7}|TripService\\TripService.csproj|c:\\users\\bogdan\\source\\repos\\projekatweb2\\tripservice\\controllers\\expensescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -262,110 +286,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "AdminService\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "AdminService\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAmwCcAAAApAAAAAAAAAA==",
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TripService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TripService\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T14:29:01.592Z",
+              "WhenOpened": "2026-05-13T22:42:17.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "UserService\\Services\\JwtService.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Services\\JwtService.cs",
-              "RelativeToolTip": "UserService\\Services\\JwtService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIA7wB0AAABIAAAAAAAAAA==",
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "UserService\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "UserService\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T22:12:40.647Z",
+              "WhenOpened": "2026-05-13T22:38:16.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "UserService\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "UserService\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAIAxwEUAAABRAAAAAAAAAA==",
+              "Title": "20260513223218_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Migrations\\20260513223218_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TripService\\Migrations\\20260513223218_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Migrations\\20260513223218_InitialCreate.cs",
+              "RelativeToolTip": "TripService\\Migrations\\20260513223218_InitialCreate.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T20:48:16.077Z",
+              "WhenOpened": "2026-05-13T22:33:52.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AdminService.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\AdminService.cs",
-              "RelativeDocumentMoniker": "AdminService\\AdminService.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\AdminService.cs",
-              "RelativeToolTip": "AdminService\\AdminService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "TripService\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "TripService\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T13:58:10.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ServiceManifest.xml",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\PackageRoot\\ServiceManifest.xml",
-              "RelativeDocumentMoniker": "AdminService\\PackageRoot\\ServiceManifest.xml",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\PackageRoot\\ServiceManifest.xml",
-              "RelativeToolTip": "AdminService\\PackageRoot\\ServiceManifest.xml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2026-05-10T14:26:51.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\User.cs",
-              "RelativeDocumentMoniker": "AdminService\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\User.cs",
-              "RelativeToolTip": "AdminService\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T14:10:04.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\appsettings.json",
-              "RelativeDocumentMoniker": "AdminService\\appsettings.json",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\appsettings.json",
-              "RelativeToolTip": "AdminService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-10T14:26:17.59Z",
+              "WhenOpened": "2026-05-13T22:31:45.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TripController.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Controllers\\TripController.cs",
-              "RelativeDocumentMoniker": "TripService\\Controllers\\TripController.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Controllers\\TripController.cs",
-              "RelativeToolTip": "TripService\\Controllers\\TripController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAYAAAAAAAAAA==",
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "AdminService\\Models\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "AdminService\\Models\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T09:42:07.095Z",
+              "WhenOpened": "2026-05-11T13:46:51.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Trip.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\Trip.cs",
               "RelativeDocumentMoniker": "AdminService\\Models\\Trip.cs",
@@ -378,7 +363,150 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T21:53:42.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\Activity.cs",
+              "RelativeDocumentMoniker": "TripService\\Models\\Activity.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\Activity.cs",
+              "RelativeToolTip": "TripService\\Models\\Activity.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:01:49.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "TripDto.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\DTOs\\TripDto.cs",
+              "RelativeDocumentMoniker": "AdminService\\Models\\DTOs\\TripDto.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\DTOs\\TripDto.cs",
+              "RelativeToolTip": "AdminService\\Models\\DTOs\\TripDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T13:47:05.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AdminService\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AdminService\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:29:01.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\AdminService.cs",
+              "RelativeDocumentMoniker": "AdminService\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\AdminService.cs",
+              "RelativeToolTip": "AdminService\\AdminService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T13:58:10.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "UserService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "UserService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAADgv0UAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T20:48:16.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\PackageRoot\\ServiceManifest.xml",
+              "RelativeDocumentMoniker": "AdminService\\PackageRoot\\ServiceManifest.xml",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\PackageRoot\\ServiceManifest.xml",
+              "RelativeToolTip": "AdminService\\PackageRoot\\ServiceManifest.xml",
+              "ViewState": "AgIAAAoAAAAAAAAAAABBwCAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-05-10T14:26:51.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AdminService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Models\\User.cs",
+              "RelativeToolTip": "AdminService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T14:10:04.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\appsettings.json",
+              "RelativeDocumentMoniker": "AdminService\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\appsettings.json",
+              "RelativeToolTip": "AdminService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-10T14:26:17.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TripController.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Controllers\\TripController.cs",
+              "RelativeDocumentMoniker": "TripService\\Controllers\\TripController.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Controllers\\TripController.cs",
+              "RelativeToolTip": "TripService\\Controllers\\TripController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T09:42:07.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Services\\JwtService.cs",
+              "RelativeToolTip": "UserService\\Services\\JwtService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAlwB0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T22:12:40.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\AdminService\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "AdminService\\Data\\AppDbContext.cs",
@@ -391,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "TripService\\Data\\AppDbContext.cs",
@@ -404,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "ActivitiesController.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Controllers\\ActivitiesController.cs",
               "RelativeDocumentMoniker": "TripService\\Controllers\\ActivitiesController.cs",
@@ -417,33 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Models\\User.cs",
-              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Models\\User.cs",
-              "RelativeToolTip": "UserService\\Models\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T21:53:42.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Activity.cs",
-              "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\Activity.cs",
-              "RelativeDocumentMoniker": "TripService\\Models\\Activity.cs",
-              "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\Activity.cs",
-              "RelativeToolTip": "TripService\\Models\\Activity.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T19:01:49.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "IActivityService.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Services\\IActivityService.cs",
               "RelativeDocumentMoniker": "TripService\\Services\\IActivityService.cs",
@@ -456,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "ChecklistService.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Services\\ChecklistService.cs",
               "RelativeDocumentMoniker": "TripService\\Services\\ChecklistService.cs",
@@ -469,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "ITripService.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Services\\ITripService.cs",
               "RelativeDocumentMoniker": "TripService\\Services\\ITripService.cs",
@@ -482,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "IChecklistService.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Services\\IChecklistService.cs",
               "RelativeDocumentMoniker": "TripService\\Services\\IChecklistService.cs",
@@ -495,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "ExpensesController.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Controllers\\ExpensesController.cs",
               "RelativeDocumentMoniker": "TripService\\Controllers\\ExpensesController.cs",
@@ -508,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "ActivityService.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Services\\ActivityService.cs",
               "RelativeDocumentMoniker": "TripService\\Services\\ActivityService.cs",
@@ -521,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "TripServiceLogic.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Services\\TripServiceLogic.cs",
               "RelativeDocumentMoniker": "TripService\\Services\\TripServiceLogic.cs",
@@ -534,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "TripCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\TripCreateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\TripCreateDto.cs",
@@ -547,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "TripDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\TripDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\TripDto.cs",
@@ -560,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "TripService.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\TripService.cs",
               "RelativeDocumentMoniker": "TripService\\TripService.cs",
@@ -573,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "ExpenseUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ExpenseUpdateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ExpenseUpdateDto.cs",
@@ -586,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "ExpenseCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ExpenseCreateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ExpenseCreateDto.cs",
@@ -599,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "ExpenseDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ExpenseDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ExpenseDto.cs",
@@ -612,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "DestinationUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\DestinationUpdateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\DestinationUpdateDto.cs",
@@ -625,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 34,
               "Title": "DestinationDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\DestinationDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\DestinationDto.cs",
@@ -638,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 35,
               "Title": "DestinationCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\DestinationCreateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\DestinationCreateDto.cs",
@@ -651,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 36,
               "Title": "ChecklistItemUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ChecklistItemUpdateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ChecklistItemUpdateDto.cs",
@@ -664,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 37,
               "Title": "ChecklistItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ChecklistItemDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ChecklistItemDto.cs",
@@ -677,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 38,
               "Title": "ChecklistItemCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ChecklistItemCreateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ChecklistItemCreateDto.cs",
@@ -690,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "ActivityUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ActivityUpdateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ActivityUpdateDto.cs",
@@ -703,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "ActivityDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ActivityDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ActivityDto.cs",
@@ -716,7 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "ActivityCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\ActivityCreateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\ActivityCreateDto.cs",
@@ -729,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "ChecklistItem.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\ChecklistItem.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\ChecklistItem.cs",
@@ -742,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "Destination.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\Destination.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\Destination.cs",
@@ -755,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "Expense.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\Expense.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\Expense.cs",
@@ -768,7 +870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "Trip.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\Trip.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\Trip.cs",
@@ -781,20 +883,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 46,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\appsettings.json",
               "RelativeDocumentMoniker": "UserService\\appsettings.json",
               "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\appsettings.json",
               "RelativeToolTip": "UserService\\appsettings.json",
-              "ViewState": "AgIAAAgAAAAAAAAAAABRwBUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAABhwBUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-04T21:49:53.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 48,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\appsettings.json",
               "RelativeDocumentMoniker": "TripService\\appsettings.json",
@@ -807,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 49,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\UserService.cs",
               "RelativeDocumentMoniker": "UserService\\UserService.cs",
@@ -820,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 50,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "UserService\\Data\\AppDbContext.cs",
@@ -833,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 47,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\appsettings.Development.json",
               "RelativeDocumentMoniker": "UserService\\appsettings.Development.json",
@@ -846,7 +948,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 51,
               "Title": "TripUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\Models\\DTOs\\TripUpdateDto.cs",
               "RelativeDocumentMoniker": "TripService\\Models\\DTOs\\TripUpdateDto.cs",
@@ -859,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 52,
               "Title": "ServiceEventSource.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\ServiceEventSource.cs",
               "RelativeDocumentMoniker": "TripService\\ServiceEventSource.cs",
@@ -872,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 53,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -885,7 +987,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "ServiceManifest.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\PackageRoot\\ServiceManifest.xml",
               "RelativeDocumentMoniker": "TripService\\PackageRoot\\ServiceManifest.xml",
@@ -898,7 +1000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "TripService.http",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\TripService\\TripService.http",
               "RelativeDocumentMoniker": "TripService\\TripService.http",
@@ -911,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 56,
               "Title": "ServiceManifest.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\PackageRoot\\ServiceManifest.xml",
               "RelativeDocumentMoniker": "UserService\\PackageRoot\\ServiceManifest.xml",
@@ -924,20 +1026,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "StartupServices.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\ProjekatWEB2\\StartupServices.xml",
               "RelativeDocumentMoniker": "ProjekatWEB2\\StartupServices.xml",
               "ToolTip": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\ProjekatWEB2\\StartupServices.xml",
               "RelativeToolTip": "ProjekatWEB2\\StartupServices.xml",
-              "ViewState": "AgIAAAUAAAAAAAAAAABRwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBZwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2026-05-06T10:14:59.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 58,
               "Title": "Local.1Node.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\ProjekatWEB2\\StartupServiceParameters\\Local.1Node.xml",
               "RelativeDocumentMoniker": "ProjekatWEB2\\StartupServiceParameters\\Local.1Node.xml",
@@ -950,7 +1052,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "Cloud.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\ProjekatWEB2\\ApplicationParameters\\Cloud.xml",
               "RelativeDocumentMoniker": "ProjekatWEB2\\ApplicationParameters\\Cloud.xml",
@@ -963,7 +1065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "ApplicationManifest.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\ProjekatWEB2\\ApplicationPackageRoot\\ApplicationManifest.xml",
               "RelativeDocumentMoniker": "ProjekatWEB2\\ApplicationPackageRoot\\ApplicationManifest.xml",
@@ -976,7 +1078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "Local.5Node.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\ProjekatWEB2\\ApplicationParameters\\Local.5Node.xml",
               "RelativeDocumentMoniker": "ProjekatWEB2\\ApplicationParameters\\Local.5Node.xml",
@@ -989,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "Local.1Node.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\ProjekatWEB2\\ApplicationParameters\\Local.1Node.xml",
               "RelativeDocumentMoniker": "ProjekatWEB2\\ApplicationParameters\\Local.1Node.xml",
@@ -1002,7 +1104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 64,
               "Title": "ServiceEventSource.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\ServiceEventSource.cs",
               "RelativeDocumentMoniker": "UserService\\ServiceEventSource.cs",
@@ -1015,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 65,
               "Title": "Settings.xml",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\PackageRoot\\Config\\Settings.xml",
               "RelativeDocumentMoniker": "UserService\\PackageRoot\\Config\\Settings.xml",
@@ -1028,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Models\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "UserService\\Models\\DTOs\\LoginDto.cs",
@@ -1041,7 +1143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Program.cs",
               "RelativeDocumentMoniker": "UserService\\Program.cs",
@@ -1054,7 +1156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "PasswordHelper.cs",
               "DocumentMoniker": "C:\\Users\\Bogdan\\source\\repos\\ProjekatWEB2\\UserService\\Helpers\\PasswordHelper.cs",
               "RelativeDocumentMoniker": "UserService\\Helpers\\PasswordHelper.cs",

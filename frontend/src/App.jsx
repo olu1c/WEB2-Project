@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage';
 import CreateTripPage from './pages/CreateTripPage';
 import EditTripPage from './pages/EditTripPage';
 import TripDetailPage from './pages/TripDetailPage';
+import AdminPage from './pages/AdminPage';
 import './App.css';
 
 const router = createBrowserRouter([
@@ -31,6 +32,7 @@ const router = createBrowserRouter([
           { path: 'edit/:id', element: <ProtectedRoute><EditTripPage /></ProtectedRoute> },
         ],
       },
+      { path: 'admin', element: <ProtectedRoute><AdminPage /></ProtectedRoute> },
     ],
   },
 ]);

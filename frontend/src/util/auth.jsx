@@ -4,8 +4,11 @@ export default function getAuthToken(){
     return token;
 }
 
+export const getToken = getAuthToken;
+
 export const setToken=(token)=>{
     localStorage.setItem("token",token);
+    window.dispatchEvent(new Event('tokenChanged'));
 }
 export const removeToken=()=>{
     localStorage.removeItem("token");

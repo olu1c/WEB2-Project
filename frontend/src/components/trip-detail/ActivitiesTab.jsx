@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { activityService } from '../../services/activityService';
 import { ActivityStatus } from '../../models/Activity';
+import CalendarView from './CalendarView';
 
 export default function ActivitiesTab({ tripId, activities, setActivities, trip }) {
   const tripStart = trip?.startDate?.slice(0, 10);
@@ -8,6 +9,7 @@ export default function ActivitiesTab({ tripId, activities, setActivities, trip 
 
   const [form, setForm] = useState({ name: '', date: '', time: '00:00:00', location: '', description: '', estimatedCost: 0, status: ActivityStatus.Planned });
   const [error, setError] = useState(null);
+  const [view, setView] = useState('list'); // 'list' or 'calendar'
 
   const handleAdd = async (e) => {
     e.preventDefault();
@@ -45,8 +47,30 @@ export default function ActivitiesTab({ tripId, activities, setActivities, trip 
 
   return (
     <div className="card">
-      <h2>Activities</h2>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+        <h2>Activities</h2>
+        <div style={{ display: 'flex', gap: '8px' }}>
+          <button
+            type="button"
+            onClick={() => setView('list')}
+            style={{ padding: '6px 14px', borderRadius: '8px', border: '1px solid #6366f1', cursor: 'pointer', fontWeight: 600, fontSize: '13px',
+              background: view === 'list' ? '#6366f1' : 'transparent',
+              color: view === 'list' ? 'white' : '#6366f1' }}>
+            List
+          </button>
+          <button
+            type="button"
+            onClick={() => setView('calendar')}
+            style={{ padding: '6px 14px', borderRadius: '8px', border: '1px solid #6366f1', cursor: 'pointer', fontWeight: 600, fontSize: '13px',
+              background: view === 'calendar' ? '#6366f1' : 'transparent',
+              color: view === 'calendar' ? 'white' : '#6366f1' }}>
+            Calendar
+          </button>
+        </div>
+      </div>
+
       {error && <p style={{ color: 'red' }}>{error}</p>}
+
       <form onSubmit={handleAdd}>
         <input required placeholder="Name" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} />
         <input type="date" required min={tripStart} max={tripEnd} value={form.date} onChange={e => setForm({ ...form, date: e.target.value })} />
@@ -59,19 +83,24 @@ export default function ActivitiesTab({ tripId, activities, setActivities, trip 
         </select>
         <button type="submit">Add</button>
       </form>
-      {Object.entries(grouped).sort().map(([day, acts]) => (
-        <div key={day}>
-          <h4>📅 {day}</h4>
-          <ul>
-            {acts.map(a => (
-              <li key={a.id}>
-                {a.time?.slice(0, 5)} — <strong>{a.name}</strong> @ {a.location} [{a.status}] {a.estimatedCost}€
-                <button onClick={() => handleDelete(a.id)}>🗑</button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
+
+      {view === 'list' ? (
+        Object.entries(grouped).sort().map(([day, acts]) => (
+          <div key={day}>
+            <h4>📅 {day}</h4>
+            <ul>
+              {acts.map(a => (
+                <li key={a.id}>
+                  {a.time?.slice(0, 5)} — <strong>{a.name}</strong> @ {a.location} [{a.status}] {a.estimatedCost}€
+                  <button onClick={() => handleDelete(a.id)}>🗑</button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      ) : (
+        <CalendarView activities={activities} onDeleteActivity={handleDelete} />
+      )}
     </div>
   );
 }

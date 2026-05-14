@@ -1,10 +1,29 @@
-import { createContext, useContext, useState } from 'react';
-import { isTokenValid, removeToken, setToken } from '../util/auth';
+import { createContext, useContext, useState, useEffect } from 'react';
+import { isTokenValid, removeToken, setToken, getToken } from '../util/auth';
 
 const AuthContext = createContext(null);
 
+function getRoleFromToken() {
+  const token = getToken();
+  if (!token) return null;
+  try {
+    const payload = JSON.parse(atob(token.split('.')[1]));
+    return payload['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'] || null;
+  } catch {
+    return null;
+  }
+}
+
 export function AuthProvider({ children }) {
   const [isAuthenticated, setIsAuthenticated] = useState(isTokenValid());
+
+  useEffect(() => {
+    const handleTokenChange = () => {
+      setIsAuthenticated(isTokenValid());
+    };
+    window.addEventListener('tokenChanged', handleTokenChange);
+    return () => window.removeEventListener('tokenChanged', handleTokenChange);
+  }, []);
 
   const login = (token) => {
     setToken(token);
@@ -16,8 +35,11 @@ export function AuthProvider({ children }) {
     setIsAuthenticated(false);
   };
 
+  // role se čita direktno iz tokena svaki render
+  const role = getRoleFromToken();
+
   return (
-    <AuthContext.Provider value={{ isAuthenticated, login, logout }}>
+    <AuthContext.Provider value={{ isAuthenticated, login, logout, role }}>
       {children}
     </AuthContext.Provider>
   );

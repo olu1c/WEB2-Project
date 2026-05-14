@@ -4,7 +4,7 @@ import logoImg from '../../pictures/pic2.jpg';
 import '../NavBar.css';
 
 export default function NavBar() {
-  const { logout } = useAuth();
+  const { logout,role } = useAuth();
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -20,6 +20,7 @@ export default function NavBar() {
           <ul className="nav-links">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/trips/new">Create Trip</NavLink></li>
+            {role === 'Admin' && (<li><NavLink to="admin">Admin</NavLink></li>)}
           </ul>
         </div>
         <div className="logout">

@@ -14,7 +14,7 @@ namespace TripService.Models
 
         [Column("ActivityDate")]
         public DateTime Date { get; set; }
-
+        
         public TimeSpan Time { get; set; }
         public required string Location { get; set; }
         public string Description { get; set; } = string.Empty;
