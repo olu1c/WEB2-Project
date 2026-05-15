@@ -8,11 +8,12 @@ export default function ExpensesTab({ tripId, expenses, setExpenses, budget, tri
 
   const [form, setForm] = useState({ name: '', category: ExpenseCategory.Other, amount: '', date: '', description: '' });
   const [error, setError] = useState(null);
+  const [editingId, setEditingId] = useState(null);
 
   const totalSpent = expenses.reduce((sum, e) => sum + e.amount, 0);
   const remaining = budget - totalSpent;
 
-  const handleAdd = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError(null);
 
@@ -26,10 +27,32 @@ export default function ExpensesTab({ tripId, expenses, setExpenses, budget, tri
     }
 
     try {
-      const created = await expenseService.create(tripId, { ...form, amount: Number(form.amount) });
-      setExpenses(prev => [...prev, created]);
+      if (editingId) {
+        await expenseService.update(tripId, editingId, { ...form, amount: Number(form.amount) });
+        setExpenses(prev => prev.map(e => e.id === editingId ? { ...e, ...form, amount: Number(form.amount) } : e));
+        setEditingId(null);
+      } else {
+        const created = await expenseService.create(tripId, { ...form, amount: Number(form.amount) });
+        setExpenses(prev => [...prev, created]);
+      }
       setForm({ name: '', category: ExpenseCategory.Other, amount: '', date: '', description: '' });
     } catch (err) { setError(err.message); }
+  };
+
+  const handleEdit = (e) => {
+    setEditingId(e.id);
+    setForm({
+      name: e.name,
+      category: e.category,
+      amount: e.amount,
+      date: e.date?.slice(0, 10),
+      description: e.description || ''
+    });
+  };
+
+  const handleCancelEdit = () => {
+    setEditingId(null);
+    setForm({ name: '', category: ExpenseCategory.Other, amount: '', date: '', description: '' });
   };
 
   const handleDelete = async (id) => {
@@ -44,7 +67,7 @@ export default function ExpensesTab({ tripId, expenses, setExpenses, budget, tri
       <h2>Expenses</h2>
       <p>💰 Total spent: <strong>{totalSpent}€</strong> / {budget}€ &nbsp;|&nbsp; Remaining: <strong style={{ color: remaining < 0 ? 'red' : 'green' }}>{remaining}€</strong></p>
       {error && <p style={{ color: 'red' }}>{error}</p>}
-      <form onSubmit={handleAdd}>
+      <form onSubmit={handleSubmit}>
         <input required placeholder="Name" value={form.name} onChange={e => setForm({ ...form, name: e.target.value })} />
         <select value={form.category} onChange={e => setForm({ ...form, category: e.target.value })}>
           {Object.values(ExpenseCategory).map(c => <option key={c} value={c}>{c}</option>)}
@@ -52,12 +75,14 @@ export default function ExpensesTab({ tripId, expenses, setExpenses, budget, tri
         <input type="number" required min="0" placeholder="Amount (€)" value={form.amount} onChange={e => setForm({ ...form, amount: e.target.value })} />
         <input type="date" required min={tripStart} max={tripEnd} value={form.date} onChange={e => setForm({ ...form, date: e.target.value })} />
         <input placeholder="Description (optional)" value={form.description} onChange={e => setForm({ ...form, description: e.target.value })} />
-        <button type="submit">Add</button>
+        <button type="submit">{editingId ? 'Save' : 'Add'}</button>
+        {editingId && <button type="button" onClick={handleCancelEdit}>Cancel</button>}
       </form>
       <ul>
         {expenses.map(e => (
           <li key={e.id}>
             <strong>{e.name}</strong> [{e.category}] — {e.amount}€ ({e.date?.slice(0, 10)})
+            <button onClick={() => handleEdit(e)}>✏️</button>
             <button onClick={() => handleDelete(e.id)}>🗑</button>
           </li>
         ))}

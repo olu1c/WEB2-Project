@@ -1,1 +1,29 @@
-.claude/
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+bin/
+obj/
+out/
+
+## NuGet
+*.nupkg
+packages/
+!packages/repositories.config
+
+## Node
+node_modules/
+npm-debug.log
+dist/
+
+## Environment
+.env.local
+.env.*.local
+
+## OS
+.DS_Store
+Thumbs.db

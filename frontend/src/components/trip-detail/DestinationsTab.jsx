@@ -7,6 +7,7 @@ export default function DestinationsTab({ tripId, destinations, setDestinations,
 
   const [form, setForm] = useState({ name: '', location: '', arrivalDate: '', departureDate: '', description: '' });
   const [error, setError] = useState(null);
+  const [editingId, setEditingId] = useState(null);
 
   const handleAdd = async (e) => {
     e.preventDefault();
@@ -22,10 +23,32 @@ export default function DestinationsTab({ tripId, destinations, setDestinations,
     }
 
     try {
-      const created = await destinationService.create(tripId, form);
-      setDestinations(prev => [...prev, created]);
+      if (editingId) {
+        await destinationService.update(tripId, editingId, form);
+        setDestinations(prev => prev.map(d => d.id === editingId ? { ...d, ...form } : d));
+        setEditingId(null);
+      } else {
+        const created = await destinationService.create(tripId, form);
+        setDestinations(prev => [...prev, created]);
+      }
       setForm({ name: '', location: '', arrivalDate: '', departureDate: '', description: '' });
     } catch (err) { setError(err.message); }
+  };
+
+  const handleEdit = (d) => {
+    setEditingId(d.id);
+    setForm({
+      name: d.name,
+      location: d.location,
+      arrivalDate: d.arrivalDate?.slice(0, 10),
+      departureDate: d.departureDate?.slice(0, 10),
+      description: d.description || ''
+    });
+  };
+
+  const handleCancelEdit = () => {
+    setEditingId(null);
+    setForm({ name: '', location: '', arrivalDate: '', departureDate: '', description: '' });
   };
 
   const handleDelete = async (id) => {
@@ -45,12 +68,15 @@ export default function DestinationsTab({ tripId, destinations, setDestinations,
         <input type="date" required min={tripStart} max={tripEnd} value={form.arrivalDate} onChange={e => setForm({ ...form, arrivalDate: e.target.value })} />
         <input type="date" required min={tripStart} max={tripEnd} value={form.departureDate} onChange={e => setForm({ ...form, departureDate: e.target.value })} />
         <input placeholder="Description (optional)" value={form.description} onChange={e => setForm({ ...form, description: e.target.value })} />
-        <button type="submit">Add</button>
+        <button type="submit">{editingId ? 'Save' : 'Add'}</button>
+        {editingId && <button type="button" onClick={handleCancelEdit}>Cancel</button>}
       </form>
       <ul>
         {destinations.map(d => (
           <li key={d.id}>
             <strong>{d.name}</strong> — {d.location} ({d.arrivalDate?.slice(0, 10)} → {d.departureDate?.slice(0, 10)})
+            {d.description && <span style={{ color: 'gray', fontSize: '13px' }}> — {d.description}</span>}
+            <button onClick={() => handleEdit(d)}>✏️</button>
             <button onClick={() => handleDelete(d.id)}>🗑</button>
           </li>
         ))}

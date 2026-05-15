@@ -1,22 +1,27 @@
-function getHeaders() {
+import axios from 'axios';
+
+const getHeaders = () => {
   const token = localStorage.getItem('token');
-  return {
-    'Content-Type': 'application/json',
-    ...(token ? { Authorization: `Bearer ${token}` } : {}),
-  };
-}
+  return token ? { Authorization: `Bearer ${token}` } : {};
+};
 
 export async function apiFetch(url, options = {}) {
-  const response = await fetch(url, {
-    ...options,
-    headers: { ...getHeaders(), ...options.headers },
-  });
+  const { method = 'GET', body, headers = {} } = options;
 
-  if (!response.ok) {
-    const error = await response.text();
-    throw new Error(error || response.statusText);
+  try {
+    const response = await axios({
+      url,
+      method,
+      data: body,
+      headers: {
+        'Content-Type': 'application/json',
+        ...getHeaders(),
+        ...headers,
+      },
+    });
+    return response.data || null;
+  } catch (error) {
+    const message = error.response?.data || error.message;
+    throw new Error(typeof message === 'string' ? message : JSON.stringify(message));
   }
-
-  const text = await response.text();
-  return text ? JSON.parse(text) : null;
 }

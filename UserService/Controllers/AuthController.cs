@@ -28,11 +28,11 @@ namespace UserService.Controllers
         [HttpPost("register")]
         public IActionResult Register([FromBody] RegisterDto dto)
         {
-            var userExists = _context.Users
-                .Any(x => x.Username == dto.Username);
+            if (_context.Users.Any(x => x.Username == dto.Username))
+                return BadRequest("Username already exists.");
 
-            if (userExists)
-                return BadRequest("User already exists");
+            if (_context.Users.Any(x => x.Email == dto.Email))
+                return BadRequest("Email already in use.");
 
             var user = new User
             {
