@@ -1,30 +1,25 @@
-import { apiFetch } from './api';
+import axios from 'axios';
 import { ChecklistItem } from '../models/ChecklistItem';
+import { getAuthHeader } from './api';
 
 const BASE = import.meta.env.VITE_TRIP_SERVICE_URL;
 
 export const checklistService = {
   getAll: async (tripId) => {
-    const data = await apiFetch(`${BASE}/api/trips/${tripId}/checklist`);
-    return data.map(c => new ChecklistItem(c));
+    const res = await axios.get(`${BASE}/api/trips/${tripId}/checklist`, { headers: getAuthHeader() });
+    return res.data.map(c => new ChecklistItem(c));
   },
 
   create: async (tripId, text) => {
-    const data = await apiFetch(`${BASE}/api/trips/${tripId}/checklist`, {
-      method: 'POST',
-      body: JSON.stringify({ text }),
-    });
-    return new ChecklistItem(data);
+    const res = await axios.post(`${BASE}/api/trips/${tripId}/checklist`, { text }, { headers: getAuthHeader() });
+    return new ChecklistItem(res.data);
   },
 
   update: async (tripId, id, itemData) => {
-    await apiFetch(`${BASE}/api/trips/${tripId}/checklist/${id}`, {
-      method: 'PUT',
-      body: JSON.stringify(itemData),
-    });
+    await axios.put(`${BASE}/api/trips/${tripId}/checklist/${id}`, itemData, { headers: getAuthHeader() });
   },
 
   delete: async (tripId, id) => {
-    await apiFetch(`${BASE}/api/trips/${tripId}/checklist/${id}`, { method: 'DELETE' });
+    await axios.delete(`${BASE}/api/trips/${tripId}/checklist/${id}`, { headers: getAuthHeader() });
   },
 };

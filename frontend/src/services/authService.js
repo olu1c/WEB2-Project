@@ -1,23 +1,15 @@
+import axios from 'axios';
+
 const BASE = import.meta.env.VITE_USER_SERVICE_URL;
 
 export const authService = {
   login: async (username, password) => {
-    const response = await fetch(`${BASE}/api/auth/login`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ username, password }),
-    });
-    if (!response.ok) throw new Error(await response.text());
-    return response.json();
+    const res = await axios.post(`${BASE}/api/auth/login`, { username, password });
+    return res.data;
   },
 
   register: async (username, email, password) => {
-    const response = await fetch(`${BASE}/api/auth/register`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ username, email, password }),
-    });
-    if (!response.ok) throw new Error(await response.text());
-    return response.text();
+    const res = await axios.post(`${BASE}/api/auth/register`, { username, email, password });
+    return res.data;
   },
 };
