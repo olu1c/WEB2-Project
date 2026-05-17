@@ -1,0 +1,306 @@
+.shared-page {
+  min-height: 100vh;
+  background: #0f172a;
+  color: #e2e8f0;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shared-header {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a78bfa 100%);
+  padding: 28px 32px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.shared-header h1 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  color: white;
+}
+
+.shared-header p {
+  margin: 0;
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+}
+
+.access-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.access-badge.view {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
+
+.access-badge.edit {
+  background: rgba(255,255,255,0.3);
+  color: white;
+}
+
+.shared-body {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+}
+
+.shared-sidebar {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.shared-sidebar button {
+  background: #1e293b;
+  color: #94a3b8;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 10px;
+  text-align: left;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+  text-transform: capitalize;
+}
+
+.shared-sidebar button:hover {
+  background: #334155;
+  color: #e2e8f0;
+}
+
+.shared-sidebar button.active-tab {
+  background: #6366f1;
+  color: white;
+  font-weight: 600;
+}
+
+.shared-content {
+  flex: 1;
+}
+
+.shared-card {
+  background: #1e293b;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.shared-card h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  color: #818cf8;
+}
+
+.shared-stats {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.shared-stats div {
+  flex: 1;
+  background: #0f172a;
+  padding: 14px;
+  border-radius: 10px;
+  text-align: center;
+  color: #818cf8;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* FORM */
+.shared-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #0f172a;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.shared-form h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  color: #818cf8;
+}
+
+.shared-form input,
+.shared-form select {
+  background: #1e293b !important;
+  border: 1px solid #334155;
+  color: #e2e8f0 !important;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-text-fill-color: #e2e8f0;
+}
+
+.shared-form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #1e293b inset;
+  -webkit-text-fill-color: #e2e8f0;
+}
+
+.shared-form input::placeholder {
+  color: #94a3b8;
+}
+
+.shared-form input:focus,
+.shared-form select:focus {
+  border-color: #6366f1;
+}
+
+.shared-form label {
+  font-size: 12px;
+  color: #94a3b8;
+  margin-bottom: -6px;
+}
+
+.shared-form-btns {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.shared-form button,
+.shared-form-btns button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  background: #6366f1;
+  color: white;
+  transition: background 0.2s;
+}
+
+.shared-form button:hover,
+.shared-form-btns button:hover {
+  background: #4f46e5;
+}
+
+.shared-form-btns button:last-child {
+  background: #334155;
+  color: #e2e8f0;
+}
+
+.shared-form-btns button:last-child:hover {
+  background: #475569;
+}
+
+.shared-error {
+  color: #f87171;
+  font-size: 13px;
+  margin: 0;
+}
+
+/* ITEMS */
+.shared-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #0f172a;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 10px;
+}
+
+.shared-item p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.shared-item-btns {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.shared-item-btns button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  background: #334155;
+  color: #e2e8f0;
+  transition: background 0.2s;
+}
+
+.shared-item-btns button:hover {
+  background: #475569;
+}
+
+.shared-item-btns button.danger {
+  background: #450a0a;
+  color: #fca5a5;
+}
+
+.shared-item-btns button.danger:hover {
+  background: #7f1d1d;
+}
+
+/* STATUS BADGES */
+.status-badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.status-planned { background: #1e3a5f; color: #93c5fd; }
+.status-reserved { background: #14532d; color: #86efac; }
+.status-completed { background: #166534; color: #6ee7b7; }
+.status-cancelled { background: #450a0a; color: #fca5a5; }
+
+/* BUDGET */
+.budget-summary {
+  display: flex;
+  gap: 16px;
+  background: #0f172a;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+/* CHECKLIST */
+.checklist-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid #1e293b;
+}
+
+.checklist-item button.danger.small {
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  background: #450a0a;
+  color: #fca5a5;
+}
+
+.checklist-item button.danger.small:hover {
+  background: #7f1d1d;
+}

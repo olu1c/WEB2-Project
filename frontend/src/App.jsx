@@ -9,11 +9,13 @@ import CreateTripPage from './pages/CreateTripPage';
 import EditTripPage from './pages/EditTripPage';
 import TripDetailPage from './pages/TripDetailPage';
 import AdminPage from './pages/AdminPage';
+import SharedTripPage from './pages/SharedTripPage';
 import './App.css';
 
 const router = createBrowserRouter([
   { path: '/login', element: <LoginPage />, action: loginAction },
   { path: '/signup', element: <SignupPage />, action: signupAction },
+  { path: '/trips/share/:id', element: <ProtectedRoute><SharedTripPage /></ProtectedRoute> },
   {
     path: '/',
     element: <MainNavigation />,

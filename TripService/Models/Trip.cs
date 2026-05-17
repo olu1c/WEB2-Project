@@ -20,5 +20,6 @@ namespace TripService.Models
         public ICollection<Activity> Activities { get; set; } = new List<Activity>();
         public ICollection<Expense> Expenses { get; set; } = new List<Expense>();
         public ICollection<ChecklistItem> ChecklistItems { get; set; } = new List<ChecklistItem>();
+        public ICollection<TripShare> TripShares { get; set; } = new List<TripShare>();
     }
 }

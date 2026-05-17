@@ -10,6 +10,7 @@ import DestinationsTab from './DestinationsTab';
 import ActivitiesTab from './ActivitiesTab';
 import ExpensesTab from './ExpensesTab';
 import ChecklistTab from './ChecklistTab';
+import QRModal from './QRModal';
 import '../TripDetail.css';
 
 export default function TripDetail() {
@@ -23,6 +24,7 @@ export default function TripDetail() {
   const [checklist, setChecklist] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [showQR, setShowQR] = useState(false);
 
   useEffect(() => {
     async function loadAll() {
@@ -56,15 +58,19 @@ export default function TripDetail() {
 
   return (
     <div className="dashboard">
+      {showQR && <QRModal tripId={id} onClose={() => setShowQR(false)} />}
       <div className="headerCard">
         <div>
           <h1>{trip.name}</h1>
           <p>{trip.startDate?.slice(0, 10)} - {trip.endDate?.slice(0, 10)}</p>
         </div>
-        <div className="budgetBox">
-          <p>💰 Budget</p>
-          <h2>{trip.budget}€</h2>
-          <span>Spent: {totalSpent}€</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <button className="share-btn" onClick={() => setShowQR(true)}>🔗 Share</button>
+          <div className="budgetBox">
+            <p>💰 Budget</p>
+            <h2>{trip.budget}€</h2>
+            <span>Spent: {totalSpent}€</span>
+          </div>
         </div>
       </div>
 

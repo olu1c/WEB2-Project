@@ -66,6 +66,7 @@ namespace TripService
                         builder.Services.AddScoped<IActivityService, ActivityService>();
                         builder.Services.AddScoped<IExpenseService, ExpenseService>();
                         builder.Services.AddScoped<IChecklistService, ChecklistService>();
+                        builder.Services.AddScoped<IShareService, ShareService>();
 
                         builder.WebHost
                             .UseKestrel()

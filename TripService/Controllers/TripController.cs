@@ -60,5 +60,14 @@ namespace TripService.Controllers
             if (!success) return NotFound();
             return NoContent();
         }
+
+        [AllowAnonymous]
+        [HttpGet("{id}/share")]
+        public async Task<IActionResult> GetShared(int id)
+        {
+            var result = await _service.GetSharedAsync(id);
+            if (result == null) return NotFound();
+            return Ok(result);
+        }
     }
 }

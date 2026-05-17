@@ -12,6 +12,7 @@ namespace TripService.Data
         public DbSet<Activity> Activities { get; set; }
         public DbSet<Expense> Expenses { get; set; }
         public DbSet<ChecklistItem> ChecklistItems { get; set; }
+        public DbSet<TripShare> TripShares { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -46,6 +47,16 @@ namespace TripService.Data
             modelBuilder.Entity<Expense>()
                 .Property(e => e.Category)
                 .HasConversion<string>();
+
+            modelBuilder.Entity<TripShare>()
+                .Property(s => s.AccessType)
+                .HasConversion<string>();
+
+            modelBuilder.Entity<Trip>()
+                .HasMany(t => t.TripShares)
+                .WithOne(s => s.Trip)
+                .HasForeignKey(s => s.TripId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

@@ -9,11 +9,14 @@ export default function LoginPage() {
 
 export async function action({ request }) {
   const data = await request.formData();
+  const from = data.get('from') || '/';
   try {
     const res = await authService.login(data.get('username'), data.get('password'));
     setToken(res.token);
-    return redirect('/');
+    return redirect(from);
   } catch (err) {
-    return { error: err.message };
+    const status = err.response?.status;
+    if (status === 401) return { error: 'Invalid username or password.' };
+    return { error: 'Something went wrong. Please try again.' };
   }
 }

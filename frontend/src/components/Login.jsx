@@ -1,9 +1,11 @@
-import { Link, Form, useActionData } from "react-router-dom";
+import { Link, Form, useActionData, useLocation } from "react-router-dom";
 import logoImg from '../pictures/pic2.jpg';
 import './Login.css';
 
 export default function Login() {
   const data = useActionData();
+  const location = useLocation();
+  const from = location.state?.from || '/';
 
   return (
     <div className="login-page">
@@ -18,6 +20,7 @@ export default function Login() {
           )}
 
           <Form method="post">
+            <input type="hidden" name="from" value={from} />
             <div className="login-field">
               <label htmlFor="username">Username</label>
               <input type="text" id="username" name="username" required placeholder="Enter your username" />

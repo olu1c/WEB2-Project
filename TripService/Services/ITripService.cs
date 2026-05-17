@@ -9,5 +9,6 @@ namespace TripService.Services
         Task<TripDto?> GetByIdAsync(int userId, int id);
         Task<bool> UpdateAsync(int userId, int id, TripUpdateDto dto);
         Task<bool> DeleteAsync(int userId, int id);
+        Task<TripDto?> GetSharedAsync(int id);
     }
 }

@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { adminService } from "../services/adminService";
+import Toast from '../components/common/Toast';
 import './AdminPage.css';
 
 export default function AdminPage() {
   const [users, setUsers] = useState([]);
   const [trips, setTrips] = useState([]);
   const [error, setError] = useState(null);
+  const [toast, setToast] = useState(null);
 
   useEffect(() => {
     adminService.getUsers().then(setUsers).catch(e => setError(e.message));
@@ -17,22 +19,17 @@ export default function AdminPage() {
     try {
       await adminService.deleteUser(id);
       setUsers(prev => prev.filter(u => u.id !== id));
+      setTrips(prev => prev.filter(t => t.userId !== id));
+      setToast({ message: 'User deleted successfully.', type: 'success' });
     } catch (e) {
-      setError(e.message);
+      setToast({ message: e.response?.data || e.message, type: 'error' });
     }
   };
 
-  const handleMakeAdmin = async (id) => {
-    try {
-      await adminService.changeRole(id, 'Admin');
-      setUsers(prev => prev.map(u => u.id === id ? { ...u, role: 'Admin' } : u));
-    } catch (e) {
-      setError(e.message);
-    }
-  };
 
   return (
     <div className="admin-page">
+      {toast && <Toast message={toast.message} type={toast.type} onClose={() => setToast(null)} />}
       <h1 className="admin-title">Admin Panel</h1>
       {error && <p className="admin-error">{error}</p>}
 
@@ -60,9 +57,6 @@ export default function AdminPage() {
                   </span>
                 </td>
                 <td className="action-buttons">
-                  {u.role !== 'Admin' && (
-                    <button className="btn-make-admin" onClick={() => handleMakeAdmin(u.id)}>Make Admin</button>
-                  )}
                   <button className="btn-delete" onClick={() => handleDelete(u.id)}>Delete</button>
                 </td>
               </tr>

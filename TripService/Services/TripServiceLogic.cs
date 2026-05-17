@@ -82,6 +82,12 @@ namespace TripService.Services
             return true;
         }
 
+        public async Task<TripDto?> GetSharedAsync(int id)
+        {
+            var trip = await _db.Trips.FirstOrDefaultAsync(t => t.Id == id);
+            return trip == null ? null : Map(trip);
+        }
+
         private static TripDto Map(Trip t) => new TripDto
         {
             Id = t.Id,

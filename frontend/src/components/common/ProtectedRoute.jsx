@@ -1,13 +1,14 @@
 import { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { isTokenExpiringSoon, isTokenValid } from '../../util/auth';
 
 export default function ProtectedRoute({ children }) {
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     if (!isTokenValid()) {
-      navigate('/login');
+      navigate('/login', { state: { from: location.pathname + location.search } });
       return;
     }
     if (isTokenExpiringSoon()) {
